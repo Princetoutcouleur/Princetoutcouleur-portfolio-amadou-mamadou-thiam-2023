@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+     background-color: #252525;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+.navbar{
+    box-shadow: 0px 0px 10px 0px white;
+    background-color: #0A0A0A;
+}
+.navbar .navbar-brand img{
+    width: 120px;
+    height: 60px;
+}
+.navbar-toggler{
+    background-color: #0A0A0A;
+    color: white;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    color: white;
+    font-size: 20px;
+    margin-right: 20px;
+}
+/* banner section */
+#home{
+    background-image: url(./imgs/bg-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 90px;
+}
+#home .intro{
+    margin-top: 100px;
+}
+#home .intro h1{
+    font-size: 65px;
+}
+#home .intro p{
+    font-size: 30px;
+}
+#home .intro p span{
+    font-size: 40px;
+    font-weight: 500;
+}
+#home .intro ul{
+    display: flex;
+}
+#home .intro ul li{
+    text-align: left;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    margin-right: 20px;
+}
+#home .intro ul li a{
+    color: white;
+}
+/* about section */
+#about{
+    background-color: #252525;
+    padding-top: 90px;
+    padding-bottom: 60px;
+}
+#about img{
+    border: 10px solid #121212;
+    width: 390px;
+}
+#about h1{
+    text-transform: uppercase;
+    font-size: 60px;
+}
+#about p{
+    font-size: 25px;
+}
+#about button{
+    padding: 10px 20px;
+    color: black;
+    font-weight: 700;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+/* skills section */
+#skills{
+    background-color: #252525;
+    padding-top: 90px;
+    padding-bottom: 30px;
+}
+#skills .web-item{
+    height: 100px;
+}
+#skills img{
+    width: 90px;
+    height: 100px;
+}
+/* project section */
+#projet{
+    background-color: #252525;
+    padding-top: 90px;
+}
+#projet h1{
+    text-transform: uppercase;
+    font-size: 60px;
+    margin-bottom: 80px;
+}
+#projet .card{
+    color: black;
+    height: 360px;
+    margin-bottom: 30px;
+}
