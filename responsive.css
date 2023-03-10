@@ -1,27 +1,84 @@
 /* Mobile screen */
-@media all and (min-width: 320px) and (max-width: 400px){
-    #about img {
-            border: 10px solid #121212;
-            width: 300px;
-        }
-    #skills h1 {
-            text-transform: uppercase;
-            font-size: 45px;
-        }
-    #contact p {
-            font-size: 20px;
-        }
-    #contact .social a {
-            font-size: 20px;
-            margin: 10px 10px 0px 0px;
-        }
-    #home img{
-        width: 335px;
-    }
+@media all and (min-width: 320px) and (max-width: 400px) {
+  #about img {
+    border: 10px solid #121212;
+    width: 300px;
+  }
+  #skills h1 {
+    text-transform: uppercase;
+    font-size: 45px;
+  }
+  #contact p {
+    font-size: 20px;
+  }
+  #contact .social a {
+    font-size: 20px;
+    margin: 10px 10px 0px 0px;
+  }
+  #home img {
+    width: 335px;
+  }
 }
-@media all and (min-width: 350px) and (max-width: 500px){
-    #skills h1 {
-            text-transform: uppercase;
-            font-size: 45px;
-        }
+@media all and (min-width: 350px) and (max-width: 500px) {
+  #home {
+    padding-top: 10px;
+  }
+  #home h1 {
+    font-size: 40px;
+  }
+  #home img {
+    display: none;
+  }
+  #about {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  #about h1 {
+    font-size: 35px;
+  }
+  #about img {
+    margin-bottom: 20px;
+    width: 330px;
+  }
+  #skills {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  #skills h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  #skills .web-item {
+    height: 80px;
+  }
+  #skills img {
+    width: 50px;
+    height: 70px;
+  }
+  #projet {
+    background-color: #252525;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  #projet h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  #projet .card {
+    color: black;
+    height: 330px;
+    margin-bottom: 20px;
+  }
+  #contact {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  #contact h1 {
+    font-size: 40px;
+  }
+  #contact .email {
+    font-size: 18px;
+  }
 }
