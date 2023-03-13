@@ -117,3 +117,6 @@ body{
     height: 80px;
     padding-bottom: 10px;
 }
+#contact .email{
+    color: black;
+}
