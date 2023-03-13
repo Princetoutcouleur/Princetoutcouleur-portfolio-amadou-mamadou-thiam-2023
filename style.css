@@ -107,6 +107,13 @@ body{
 }
 #projet .card{
     color: black;
-    height: 360px;
     margin-bottom: 30px;
+}
+#projet .card h6{
+   text-transform: uppercase;
+   text-align: center;
+}
+#projet .card .img-cart img{
+    height: 80px;
+    padding-bottom: 10px;
 }
