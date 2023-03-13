@@ -68,9 +68,13 @@
   }
   #projet .card {
     color: black;
-    height: 330px;
+    height: 200px;
     margin-bottom: 20px;
   }
+  #projet .card .img-cart img{
+    height: 80px;
+    padding-bottom: 10px;
+}
   #contact {
     padding-top: 20px;
     padding-bottom: 10px;
